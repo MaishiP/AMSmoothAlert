@@ -116,7 +116,7 @@
 
 - (UIView*) alertPopupView
 {
-    UIView * alertSquare = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 200, 150)];
+    UIView * alertSquare = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 250, 150)];
     
     alertSquare.backgroundColor = [UIColor colorWithRed:0.937 green:0.937 blue:0.937 alpha:1];
     alertSquare.center = CGPointMake([self screenFrame].size.width/2, -[self screenFrame].size.height/2);
@@ -206,7 +206,7 @@
     [alertView addSubview:_titleLabel];
     
     
-    _textLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 180, 50)];
+    _textLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 220, 60)];
     _textLabel.center = CGPointMake(alertView.frame.size.width/2, 80);
     _textLabel.text = text;
     _textLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:12.0f];
